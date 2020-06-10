@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#app { 
+    width:100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.form { 
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.city { 
+    padding-left: 1em;
+    height: 5vh;
+}
+
+.button { 
+    margin: 1em 0;
+    height: 5vh;
+    background: white;
+    border: 1px solid black;
+}
+
+.actualWeather{ 
+    text-align: center;
+}
+
+.canvas { 
+    z-index: -1;
+    position: absolute;
+}
+
+@media only screen and (min-width:800px) {
+
+    .form { 
+        width: 25vw;
+        margin: 0 auto;
+    }
+}
